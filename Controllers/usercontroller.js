@@ -94,7 +94,7 @@ export const checkrandomstring = async (req, res) => {
       const checkstr = userres.randomstring;
       console.log(checkstr);
       if (randomstring == checkstr) {
-        res.status(200).json({ message: "User Details", result: userres });
+        res.status(200).json({ message: "", result: userres });
       } else {
         res.status(404).json({ message: "Kindly provide correct link" });
       }
