@@ -108,7 +108,7 @@ export const checkrandomstring = async (req, res) => {
         res.status(404).json({ message: "Kindly provide correct link" });
       }
     } else {
-      res.status(404).json({ message: "Kindly provide correct link"});
+      res.status(404).json({ message: "Already used the link."});
     }
   } catch (error) {
     console.log(error);
