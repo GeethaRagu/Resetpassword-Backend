@@ -66,7 +66,7 @@ export const forgotpassword = async (req, res) => {
               <p>Dear ${userinfo.username}</p>
               <p>We received a request to reset your password. 
               <p>Please click the following link to reset your password:</p>
-              <a href="http://localhost:5173/resetpassword/${ranstring}">Reset Password</a>
+              <a href="https://reset-password-randomstring.netlify.app/resetpassword/${ranstring}">Reset Password</a>
               <p>If you did not make this request, please ignore this email.</p>
               <p>Thank you,</p>
               <p>From Validation</p>
